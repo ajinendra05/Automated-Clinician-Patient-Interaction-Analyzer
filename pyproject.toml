@@ -1,0 +1,19 @@
+[project]
+name = "automated-clinician-patient-interaction-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "asyncpg>=0.31.0",
+    "bcrypt>=5.0.0",
+    "fastapi>=0.135.1",
+    "langchain>=1.2.13",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.11",
+    "passlib>=1.7.4",
+    "pyjwt>=2.12.1",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.42.0",
+    "vercel-blob>=0.4.2",
+]
